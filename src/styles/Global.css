@@ -1,0 +1,48 @@
+
+html, body {
+  margin: 0;
+  font-size: 1rem;
+  padding: 0;
+  max-width: 100vw; 
+  width: 100%; 
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+  background: #f3f4f6; /* Optional: light gray background for unused space */
+}
+
+.page-wrapPrecaution {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr)); /* Adjust to fit screen */
+  flex-direction: column;
+  align-items: column;
+  overflow-x: hidden; 
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust to fit screen */
+}
+
+.IntroExpGradient {
+  background: linear-gradient(to bottom, #010201, #312515); /* Blue gradient for Introduction & Experience */
+}
+
+.ProjResMoreGradient {
+  background: linear-gradient(to bottom, #312515, #010201); /* Gray gradient for Projects & Resume */
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  justify-content: center;
+  text-align: center;
+}
+
+.introduction, .experience {
+  color: white;
+}
+.projects, .resume{
+  color: black;
+}

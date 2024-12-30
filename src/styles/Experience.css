@@ -1,0 +1,216 @@
+/* Page Container Styles */
+.experience-main-container {
+    display: flex; 
+    flex-direction: row; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow-y: auto;  
+}
+.experience-left-section {
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding-left: 4vw;
+    justify-content: center;
+    width: 20%; 
+    z-index: 1;
+}
+.experience-right-section {
+    position: absolute; 
+    display: flex;
+    align-items: flex-end; 
+    flex-direction: column;
+    justify-content: center; 
+    right: 0;
+    max-width: 65%;
+    padding-right: 5vw;
+    z-index: 2;
+}
+
+/* Left Section Styles */
+.record-chain {
+    display: flex;  
+    flex-direction: column;
+    margin-left: 7vw;  
+    gap: 2.5vw;  
+}
+
+.record-link {
+    width: 9vw; 
+    height: 9vw; 
+    border-radius: 50%; 
+    text-decoration: none;  
+    background-size: cover;
+    background-position: center;
+}
+
+.record-image {
+    width: 100%; 
+    height: 100%;
+    border-radius: 50%;  
+    object-fit: cover; 
+}
+
+.record-link:hover .record-image {
+    opacity: 0.8;  /* Optional hover effect for images */
+    cursor: pointer;
+}
+
+.record-text {
+    margin-top: 0.5vh; 
+    line-height: 1.1;
+    color: #ffffff;
+    font-size: 0.65rem;
+    text-align: center; 
+}
+
+
+/* Right Section Styles */
+.experience-text-base{
+    width: 50vw; 
+    height: 9vw; 
+    display: flex; 
+    border-radius: 2vw;
+    background-color: #4a422630;
+    margin-bottom: 1.5vh;
+}
+
+.exp-heading{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.4vw; 
+    margin-top: 1vh; 
+    gap: 1vw;
+    align-items: flex-start; 
+}
+
+.exp-heading-circleRect{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.exp-heading-circle{
+    width: 1.5vw; 
+    height: 1.5vw; 
+    background-color: #FFFFFF; 
+    border-radius: 50%; 
+    margin-left: 1.5vw; 
+    margin-top: 0.5vh; 
+}
+
+.exp-heading-rect{
+    width: 0.05vw; 
+    height: 17vh; 
+    background-color: #FFFFFF;
+    margin-left: 1.5vw; 
+    max-height: auto;
+}
+
+.exp-heading-rect-2{
+    width: 0.05vw; 
+    height: 35vh; 
+    background-color: #FFFFFF;
+    margin-left: 1.5vw; 
+    max-height: auto;
+}
+
+.exp-heading-dateTagsFormat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.exp-heading-date{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 1vh; 
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vh; 
+}
+
+.exp-heading-date-2{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 1vh; 
+    margin-left:1.9vw;
+    margin-bottom: 0.5vh; 
+}
+
+.exp-heading-date-3{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 1vh; 
+    margin-left:2.8vw;
+    margin-bottom: 0.5vh; 
+}
+
+.exp-heading-tags{
+    width: 4vw; 
+    height: 1.5vw; 
+    border-radius: 0.4vw;
+    background-color: #FCE07B;
+    color: #312515;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0.4vh;
+}
+
+.exp-heading-tags-2{
+    width: 4vw; 
+    height: 1.2vw; 
+    border-radius: 0.4vw;
+    background-color: #FCE07B;
+    color: #312515;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0.4vh;
+}
+
+.exp-heading-titleDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.exp-heading-title {
+    color: #fdfdfd;
+    margin-top: 0.6vh; 
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.exp-heading-company {
+    line-height: 0.5; 
+    color: #FCE07B;
+    font-size: 0.65rem;
+}
+
+.exp-heading-list {
+    margin-top: 1.4vh; 
+    line-height: 1.1;
+    color: #ffffff;
+    font-size: 0.65rem;
+    text-align: left; 
+    max-width: 35vw;
+}
+
+.exp-heading-highlight {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+

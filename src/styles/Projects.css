@@ -1,0 +1,126 @@
+/* Page Container Styles */
+.projects-main-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow-y: auto;  
+    text-decoration: none;
+}
+
+.projects-navBar{
+    display: flex; 
+    flex-direction: row;
+    width:100%; 
+    margin-top: 1.5vh; 
+    margin-bottom: 5vh; 
+    height: 1vw; 
+    background-color: #fce07b32;
+}
+
+.projects-navText{ 
+    text-decoration: none;
+    width:50%; 
+    align-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.5rem;
+    color: #fdfdfd;
+}
+
+.projects-navText a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.projects-navText a:hover, .projects-navText a:focus {
+    opacity: 0.8; 
+    text-decoration: none;
+    color: #FCE07B; 
+}
+
+.projects-rowFormat{
+    display: flex; 
+    flex-direction: row;
+    gap: 5vw; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projects-columnFormat{
+    display: flex; 
+    flex-direction: column; 
+    gap: 2vw; 
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-imageCard{
+    display: flex;
+    width: 20vw; 
+    height: 20vw; 
+    border-radius: 2vw;
+    background-color: #4a422630;
+    margin-bottom: 1.5vh;
+    text-decoration: none; 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    position: relative; 
+}
+  
+.project-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill; 
+    display: block; 
+}
+
+.projects-imageCard:hover .project-image {
+    opacity: 0.8;  
+    cursor: pointer;
+}
+
+.overlay-rectangle {
+    position: absolute; /* Position over the image */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    background-color: #2C2314; /* Semi-transparent black overlay */
+    border: 0.5px solid #2C2314;
+    border-radius: 20px; /* Match the parent container's border radius */
+}
+
+.projectCard-textBase{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4vh; 
+    margin-left: 2.5vh; 
+}
+
+.projectCard-heading{
+    font-family: 'Inter', sans-serif;
+    color: #fdfdfd;
+    margin-top: 0.6vh; 
+    font-size: 0.78rem;
+    font-weight: bold;
+}
+
+.projectCard-secondHeading{
+    line-height: 0.5; 
+    color: #FCE07B;
+    font-size: 0.7rem;
+}
+
+.projectCard-description{
+    margin-top: 1.4vh; 
+    line-height: 1.1;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-align: left; 
+    max-width: 16vw;
+}
