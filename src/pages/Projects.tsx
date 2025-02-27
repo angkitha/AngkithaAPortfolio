@@ -143,12 +143,10 @@ const Projects: React.FC = () => {
                             </div>
                             <div className = "projectCard-description">
                             <ul>
-                                    <li>Spearheaded group as project manager. Analyzed data on past earthquakes 
-                                        using <b>PyTorch</b> and was in charge of <b>cleaning data</b> for exploratory dat analysis 
-                                        in preliminary stages of project </li>
-                                    <li>Devised <b>interactive decision tree</b> model and <b>regression tree</b> model 
-                                        to predict the magnitude of future earthquakes</li>
-                                    <li>Achieved <b>81%</b> accuracy</li>
+                                    <li>Mastered principles of <b>UI/UX</b> research. Created two low-fidelity
+                                        prototypes of a Yelp app redesign to focus on nutrition of available 
+                                        stores. </li>
+                                    <li>Created <b>case study</b> and published prototype and research on Medium.</li>
                             </ul>
                             </div>
                         </div>
